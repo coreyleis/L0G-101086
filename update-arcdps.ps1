@@ -18,7 +18,7 @@ Import-Module -Force -DisableNameChecking (Join-Path -Path $PSScriptRoot -ChildP
 # Path to a folder to store backups of the previous version of files
 
 # Load the configuration from the default file
-$config = Load-Configuration "l0g-101086-config.json"
+$config = Load-Configuration "cptnfool-config.v2.json"
 if (-not $config) {
     exit
 }

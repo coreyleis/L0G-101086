@@ -11,8 +11,8 @@ $ErrorActionPreference = "Stop"
 Import-Module -Force -DisableNameChecking (Join-Path -Path $PSScriptRoot -ChildPath l0g-101086.psm1)
 
 # Path to JSON-formatted configuration file
-$config_file = "l0g-101086-config.json"
-$backup_file = "${config_file}.bk"
+$config_file = "cptnfool-config.json"
+$backup_file = "${config-file}.bk"
 
 # discord_map
 #
