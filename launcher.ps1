@@ -14,7 +14,7 @@ $RequiredParameters = @(
 )
 
 # Load the configuration from the default file (version 2)
-$config = Load-Configuration "l0g-101086-config.json" 2 $RequiredParameters
+$config = Load-Configuration "cptnfool-config.v2.json" 2 $RequiredParameters
 if (-not $config) {
     exit
 }
