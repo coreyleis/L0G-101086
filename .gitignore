@@ -11,10 +11,17 @@ upload_logs_time.json
 arcdps.uploadextras
 arcdps.startmap
 evraids.formatted
+raids.formatted
 access_token.json
 client_secret.json
 upload_log.txt
 format_encounters_log.txt
 format_encounters_time.json
 l0g-101086-config.json
+upload-include-ev-tags.ps1
 simpleArcParse/simpleArcParse.depend
+*.7z
+cptnfool-config.v2.json
+cptnfool-config.json
+format_encounters_log.txt
+last_upload_time.json

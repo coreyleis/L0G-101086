@@ -22,7 +22,7 @@ $RequiredParameters = @(
 )
 
 # Load the configuration from the default file
-$config = Load-Configuration "l0g-101086-config.json" 2
+$config = Load-Configuration "cptnfool-config.v2.json" 2
 if (-not $config) {
     exit
 }
@@ -219,7 +219,7 @@ Function Locate-Local-EVTC-Data ($area_id, $start_time) {
     # happens to upload a different record of the same encounter. To avoid this,
     # we'll check start times within 2 seconds either direction, preferring times closer
     # to the start than not.
-    $map_times = @($start_time, ($start_time - 1), ($start_time + 1), ($start_time - 2), ($start_time + 2))
+    $map_times = @($start_time, ($start_time - 1), ($start_time + 1), ($start_time - 2), ($start_time + 2), ($start_time - 3), ($start_time + 3), ($start_time - 4), ($start_time + 4), ($start_time - 5), ($start_time + 5))
 
     ForEach ($time in $map_times) {
         # If the map dir doeesn't exist, try the next time in the list
